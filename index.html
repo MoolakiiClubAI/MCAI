@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dynamic Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            text-align: center;
+            padding: 2em;
+        }
+
+        button {
+            padding: 1em 2em;
+            font-size: 1em;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Company Name</h1>
+        <p>Welcome to our Dynamic Landing Page!</p>
+    </header>
+
+    <section>
+        <h2>Discover Our Awesome Features</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button onclick="redirectToFeatures()">Explore Now</button>
+    </section>
+
+    <script>
+        function redirectToFeatures() {
+            // You can replace 'features.html' with the actual URL of your features page
+            window.location.href = 'features.html';
+        }
+    </script>
+</body>
+</html>
